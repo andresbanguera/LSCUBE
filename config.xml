@@ -1,0 +1,31 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget 
+	id="com.autentia.ionic.pushnotifications" 
+	version="0.0.1" 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+    <name>LSCUBE</name>
+    <description>
+        LSCUBE
+    </description>
+    <author email="marlandy@autentia.com" href="http://www.autentia.com">
+        Miguel Arlandy Rodríguez
+    </author>
+
+    <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview"            value="true" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="ios-statusbarstyle"         value="black-opaque" />
+
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-vibration" />
+    
+    <icon src="logo.png" />
+    <content src="index.html" />
+    <access origin="*" />
+        
+</widget>
