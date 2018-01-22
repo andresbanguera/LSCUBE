@@ -4,16 +4,16 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.lscube.app"
-        version   = "1.0.2">
+        version   = "1.0.3">
 
-    <name>LSCUBE</name>
+    <name>LS Cube</name>
 
     <description>
-        lOGISTIC SOLUTIONS LSCube
+        lOGISTIC SOLUTIONS LS Cube
     </description>
 
     <author href="http://www.lscube.co" email="info@lscube.co">
-        LSCUBE
+        LS Cube
     </author>
 
     <!--
